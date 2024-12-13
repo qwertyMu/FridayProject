@@ -64,6 +64,8 @@ checkForEntry()
 name = input("What's your name?")
 if name in listOfPeople:
     print("hello " + name)
+else:
+    print("Sorry " + name + " your not on the list")
 
 
 
